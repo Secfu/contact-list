@@ -142,7 +142,7 @@ function updateContact(id, newDetails) {
 // Ejemplo de uso de la función para actualizar un contacto
 updateContact(1, { firstName: "NewName", phone: "555-555-5555" });
 
-console.log("Contact List after updating a contact:");
+console.log("Contacto en la lista actualizado correctamente:");
 console.log(contactList);
 
 
