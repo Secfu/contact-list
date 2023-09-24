@@ -76,7 +76,7 @@ function createContact(id, firstName, lastName, phone, location) {
 
 
 // funcion para eliminar contacto por su ID
-fuction deleteContact(id) {
+function deleteContact(id) {
   const index = contactList.findIndex(contact => contact.id === id);
 
   if (index !== -1) {
